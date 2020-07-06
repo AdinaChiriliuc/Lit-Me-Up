@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lit_Me_Up" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wood-floor-white-wall-empty-room-background-big-empty-room-grange-style-with-wooden-floor-white-wall_99266-316" translatesAutoresizingMaskIntoConstraints="NO" id="kLy-L7-6Tg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ce specie de lemn folosesti?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dub-dF-dOL">
+                                <rect key="frame" x="20" y="273" width="374" height="30"/>
+                                <color key="backgroundColor" red="0.26699590682983398" green="0.16331622004508972" blue="0.061408676207065582" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dub-dF-dOL" secondAttribute="height" multiplier="187:15" id="AbY-sc-Ag2"/>
+                                    <constraint firstAttribute="height" constant="30" id="iHc-05-wDg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="17"/>
+                                <color key="textColor" red="0.97337617150486921" green="1" blue="0.98369090158289008" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="Qzx-dL-kat">
+                                <rect key="frame" x="137" y="399" width="140" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4o-0B-WV1">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="Dgw-Bo-ySy"/>
+                                            <constraint firstAttribute="height" constant="40" id="wXi-el-m5E"/>
+                                        </constraints>
+                                        <state key="normal" title="Brad">
+                                            <color key="titleColor" red="0.9733761715" green="1" blue="0.98369090159999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="woodSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eJp-HW-Lsl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaM-oM-pKj">
+                                        <rect key="frame" x="0.0" y="85" width="140" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="1Kb-W0-jkm"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="gjk-ml-f9d"/>
+                                        </constraints>
+                                        <state key="normal" title="Fag">
+                                            <color key="titleColor" red="0.9733761715" green="1" blue="0.98369090159999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="woodSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LOF-Vk-fsI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbB-zX-706">
+                                        <rect key="frame" x="0.0" y="170" width="140" height="30"/>
+                                        <color key="backgroundColor" red="0.26699590682983398" green="0.16331622004508972" blue="0.061408676207065582" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Stejar">
+                                            <color key="titleColor" red="0.9733761715" green="1" blue="0.98369090159999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="woodSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iio-0d-xn3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Qzx-dL-kat" secondAttribute="height" multiplier="7:10" id="7Ct-ei-reT"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSU-ke-6t2" userLabel="Timer View">
+                                <rect key="frame" x="32" y="720" width="354" height="74"/>
+                                <subviews>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="73b-vd-G19">
+                                        <rect key="frame" x="0.0" y="35.5" width="354" height="4"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="3" id="bLc-Gt-WH7"/>
+                                        </constraints>
+                                        <color key="progressTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="trackTintColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </progressView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="73b-vd-G19" firstAttribute="leading" secondItem="VSU-ke-6t2" secondAttribute="leading" id="Qp4-xY-WRz"/>
+                                    <constraint firstItem="73b-vd-G19" firstAttribute="centerY" secondItem="VSU-ke-6t2" secondAttribute="centerY" id="t3m-MN-L8D"/>
+                                    <constraint firstAttribute="trailing" secondItem="73b-vd-G19" secondAttribute="trailing" id="x04-c0-Muc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kLy-L7-6Tg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1CN-bd-cgu"/>
+                            <constraint firstItem="VSU-ke-6t2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="309" id="FzC-hm-S6c"/>
+                            <constraint firstItem="kLy-L7-6Tg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GkJ-Yq-rOf"/>
+                            <constraint firstItem="VSU-ke-6t2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="IMM-pS-T54"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qzx-dL-kat" secondAttribute="trailing" constant="137" id="MzF-8g-YNa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dub-dF-dOL" secondAttribute="trailing" constant="20" id="N8v-YY-7RD"/>
+                            <constraint firstAttribute="bottom" secondItem="kLy-L7-6Tg" secondAttribute="bottom" id="aVu-fN-ULG"/>
+                            <constraint firstItem="kLy-L7-6Tg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="emg-wN-b76"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VSU-ke-6t2" secondAttribute="trailing" constant="28" id="eqp-rI-aCf"/>
+                            <constraint firstItem="dub-dF-dOL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-160" id="hO6-6y-gYQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VSU-ke-6t2" secondAttribute="bottom" constant="68" id="jsh-Fr-vdT"/>
+                            <constraint firstItem="Qzx-dL-kat" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="51" id="kfv-YN-FgY"/>
+                            <constraint firstItem="Qzx-dL-kat" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="qOx-Xm-HYb"/>
+                            <constraint firstItem="dub-dF-dOL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zTc-Et-LcK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="progressBar" destination="73b-vd-G19" id="kRq-J9-hid"/>
+                        <outlet property="titleLabel" destination="dub-dF-dOL" id="qdC-jp-ERe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wood-floor-white-wall-empty-room-background-big-empty-room-grange-style-with-wooden-floor-white-wall_99266-316" width="626" height="436"/>
+    </resources>
+</document>

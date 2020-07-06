@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "wood-floor-white-wall-empty-room-background-big-empty-room-grange-style-with-wooden-floor-white-wall_99266-316.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
